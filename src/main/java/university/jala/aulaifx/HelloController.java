@@ -2,7 +2,6 @@ package university.jala.aulaifx;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
@@ -19,8 +18,8 @@ public class HelloController {
     @FXML
     private PasswordField txtpwd;
 
-    private String userMock = "admin";
-    private String pwdMock  = "admin";
+    private String userMock = "";
+    private String pwdMock  = "";
 
     private boolean validaLogin(String login, String senha){
         if(login.equals(userMock) && senha.equals(pwdMock)){
@@ -38,7 +37,7 @@ public class HelloController {
         String pwd   = txtpwd.getText();
 
         if(validaLogin(login, pwd)) {
-            URL url = getClass().getResource("/university/jala/aulaifx/segunda-view.fxml");
+            URL url = getClass().getResource("/university/jala/aulaifx/main_views/main-view.fxml");
             if (url == null) {
                 System.err.println("FXML não encontrado!");
                 return;

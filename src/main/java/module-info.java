@@ -7,4 +7,6 @@ module university.jala.aulaifx {
 
     opens university.jala.aulaifx to javafx.fxml;
     exports university.jala.aulaifx;
+    exports university.jala.aulaifx.main_controllers;
+    opens university.jala.aulaifx.main_controllers to javafx.fxml;
 }

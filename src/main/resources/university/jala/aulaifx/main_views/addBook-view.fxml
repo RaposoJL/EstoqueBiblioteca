@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="university.jala.aulaifx.main_controllers.Controller_Main">
+   <children>
+      <AnchorPane layoutX="39.0" layoutY="25.0" prefHeight="430.0" prefWidth="723.0">
+         <children>
+            <TextField layoutX="93.0" layoutY="68.0" prefHeight="30.0" prefWidth="537.0" promptText="Adicione o Titulo" />
+            <Label layoutX="93.0" layoutY="38.0" prefHeight="30.0" prefWidth="69.0" text="Titlulo">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
